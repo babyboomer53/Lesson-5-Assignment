@@ -5,7 +5,7 @@ public class Lesson5Concurrent {
 
     public void syntaxSummary() {
         var commandName = getClass().getSimpleName();
-        System.out.printf("%n%-7s%-20s%-20s%s%n%-7s%-20s%-20s%s%n%-7s%-20s%-20s%s%n%-7s%-20s%-20s%s%n",
+        System.out.printf("%n%-7s%-18s%-20s%s%n%-7s%-18s%-20s%s%n%-7s%-18s%-20s%s%n%-7s%-18s%-20s%s%n",
                 "Usage:",
                 commandName,
                 "[--help]",
