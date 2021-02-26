@@ -85,8 +85,8 @@ public class Lesson5Concurrent {
                     try {
                         String argument = options[++index];
                         numberOfThreads = Integer.parseInt(argument);
-                    } catch (IndexOutOfBoundsException | NumberFormatException exception) {
-                        System.err.printf("%nThe \"%s\" option requires a numeric argument.%n", options[index]);
+                    } catch (NumberFormatException | ArrayIndexOutOfBoundsException exception) {
+                        System.err.printf("%nThe \"%s\" option requires a numeric argument.%n", options[--index]);
                         System.exit(1);
                     }
                     break;
