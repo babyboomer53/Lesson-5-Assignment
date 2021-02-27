@@ -1,0 +1,12 @@
+
+I
+java:S1481".Remove this unused "character" local variable.(û§é¼8½Û•ş.
+h
+java:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(øµÏ8½Û•ş.
+m	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Àı§„
+f
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(º”µ–ıÿÿÿÿ8½Û•ş.
+X
+java:S1854"=Remove this useless assignment to local variable "character".(û§é¼8½Û•ş.
+[	java:S125"<This block of commented-out lines of code should be removed.(Û™ªŸıÿÿÿÿ8İ¾à”ş.
+l	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(»Êë¸üÿÿÿÿ8çèœ•ş.
