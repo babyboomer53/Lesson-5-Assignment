@@ -69,14 +69,14 @@ public class Reentrant_Lock implements Runnable {
         ExecutorService pool = Executors.newFixedThreadPool(16);
         Runnable runnable1 = reentrantLock1;
         Runnable runnable2 = reentrantLock2;
-        /*
-        Runnable runnable1 = new Reentrant_Lock(new Resource("Data4.txt"));
-        Runnable runnable2 = new Reentrant_Lock(new Resource("Data5.txt"));
-        pool.execute(runnable1);
-        pool.execute(runnable2);
-        pool.awaitTermination(5, TimeUnit.SECONDS);
-        pool.shutdown();
-        */
+        /**
+         Runnable runnable1 = new Reentrant_Lock(new Resource("Data4.txt"));
+         Runnable runnable2 = new Reentrant_Lock(new Resource("Data5.txt"));
+         pool.execute(runnable1);
+         pool.execute(runnable2);
+         pool.awaitTermination(5, TimeUnit.SECONDS);
+         pool.shutdown();
+         */
         Thread thread1 = new Thread(runnable1);
         Thread thread2 = new Thread(runnable2);
         thread1.start();
