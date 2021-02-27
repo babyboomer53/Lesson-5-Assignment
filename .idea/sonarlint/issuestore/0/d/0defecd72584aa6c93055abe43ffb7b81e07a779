@@ -1,12 +1,12 @@
 
-H
-java:S1481D"+Remove this unused "option" local variable.(›˜¯Ã8ö‹Úàý.
-s
-java:S1104"QMake count a static final constant or non-public and provide accessors if needed.(Ã‘Ñ€ùÿÿÿÿ8ºÁ«àý.
-t	java:S127V"XRefactor the code in order to not assign to this loop counter from within the loop body.(ÂîÎâ8ƒÊìâý.
-W
-java:S1854H":Remove this useless assignment to local variable "option".(Ç¯à˜8ö”æáý.
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Àý§„
-y	java:S127Y"XRefactor the code in order to not assign to this loop counter from within the loop body.(ëÝ¯˜ûÿÿÿÿ8áƒÄùý.
-M
-java:S1444"+Make this "public static count" field final(Ã‘Ñ€ùÿÿÿÿ8ºÁ«àý.
+m	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Àý§„
+U
+java:S1854":Remove this useless assignment to local variable "option".(Ç¯à˜8ö”æáý.
+F
+java:S1481"+Remove this unused "option" local variable.(›˜¯Ã8ö‹Úàý.
+q
+java:S1104"QMake count a static final constant or non-public and provide accessors if needed.(Ã‘Ñ€ùÿÿÿÿ8ºÁ«àý.
+K
+java:S1444"+Make this "public static count" field final(Ã‘Ñ€ùÿÿÿÿ8ºÁ«àý.
+w	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(ëÝ¯˜ûÿÿÿÿ8áƒÄùý.
+r	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(ÂîÎâ8ƒÊìâý.
