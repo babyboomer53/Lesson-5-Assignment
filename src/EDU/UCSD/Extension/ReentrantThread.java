@@ -34,12 +34,12 @@ class Resource {
     }
 }
 
-class NoLockThreads implements Runnable {
+class NoLockThread implements Runnable {
     private Resource resource;
 
     private long count;
 
-    public NoLockThreads(Resource resource) {
+    public NoLockThread(Resource resource) {
         this.resource = resource;
     }
 
@@ -57,12 +57,12 @@ class NoLockThreads implements Runnable {
     }
 }
 
-public class ReentrantThreads implements Runnable {
+public class ReentrantThread implements Runnable {
     private Resource resource;
     private Lock lock;
     private long count;
 
-    public ReentrantThreads(Resource resource) {
+    public ReentrantThread(Resource resource) {
         this.resource = resource;
         this.lock = new ReentrantLock();
     }
@@ -88,16 +88,16 @@ public class ReentrantThreads implements Runnable {
     public static void main(String[] args) throws InterruptedException {
         // I didn't want to do it this way, but I needed a reference to these objects so that
         // I could retrieve the value of their accumulator fields.
-        ReentrantThreads reentrantLock1 = new ReentrantThreads(new Resource("Data4.txt"));
-        ReentrantThreads reentrantLock2 = new ReentrantThreads(new Resource("Data5.txt"));
+        ReentrantThread reentrantLock1 = new ReentrantThread(new Resource("Data4.txt"));
+        ReentrantThread reentrantLock2 = new ReentrantThread(new Resource("Data5.txt"));
         // Just how many processes are we talkin' about?
         System.out.printf("%nThis system has %d processors.%n%n", Runtime.getRuntime().availableProcessors());
         ExecutorService pool = Executors.newFixedThreadPool(16);
         Runnable runnable1 = reentrantLock1;
         Runnable runnable2 = reentrantLock2;
         /**
-         Runnable runnable1 = new ReentrantThreads(new Resource("Data4.txt"));
-         Runnable runnable2 = new ReentrantThreads(new Resource("Data5.txt"));
+         Runnable runnable1 = new ReentrantThread(new Resource("Data4.txt"));
+         Runnable runnable2 = new ReentrantThread(new Resource("Data5.txt"));
          pool.execute(runnable1);
          pool.execute(runnable2);
          pool.awaitTermination(5, TimeUnit.SECONDS);
@@ -119,16 +119,16 @@ public class ReentrantThreads implements Runnable {
 
         // I didn't want to do it this way, but I needed a reference to these objects so that
         // I could retrieve the value of their accumulator fields.
-        NoLockThreads noLockThreads1 = new NoLockThreads(new Resource("Data4.txt"));
-        NoLockThreads noLockThreads2 = new NoLockThreads(new Resource("Data5.txt"));
+        NoLockThread noLockThread1 = new NoLockThread(new Resource("Data4.txt"));
+        NoLockThread noLockThread2 = new NoLockThread(new Resource("Data5.txt"));
         // Just how many processes are we talkin' about?
         System.out.printf("%nThis system has %d processors.%n%n", Runtime.getRuntime().availableProcessors());
         // ExecutorService pool = Executors.newFixedThreadPool(16);
-        Runnable runnable3 = noLockThreads1;
-        Runnable runnable4 = noLockThreads2;
+        Runnable runnable3 = noLockThread1;
+        Runnable runnable4 = noLockThread2;
         /**
-         Runnable runnable1 = new ReentrantThreads(new Resource("Data4.txt"));
-         Runnable runnable2 = new ReentrantThreads(new Resource("Data5.txt"));
+         Runnable runnable1 = new ReentrantThread(new Resource("Data4.txt"));
+         Runnable runnable2 = new ReentrantThread(new Resource("Data5.txt"));
          pool.execute(runnable1);
          pool.execute(runnable2);
          pool.awaitTermination(5, TimeUnit.SECONDS);
@@ -142,7 +142,7 @@ public class ReentrantThreads implements Runnable {
             pool.shutdown();
             //thread2.join();
             System.out.println("\nThe combined character count is " +
-                    (noLockThreads1.getCount() + noLockThreads2.getCount()));
+                    (noLockThread1.getCount() + noLockThread2.getCount()));
             System.out.println("\nIf you scroll through the output, you'll notice the interleaving of the\n" +
                     "messages as the system alternated between the threads.");
         }
