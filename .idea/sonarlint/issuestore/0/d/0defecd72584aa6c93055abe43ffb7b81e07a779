@@ -1,11 +1,12 @@
 
-s
-java:S1104"QMake count a static final constant or non-public and provide accessors if needed.(Ã‘Ñ€ùÿÿÿÿ8ºÁ«àı.
 H
 java:S1481D"+Remove this unused "option" local variable.(›˜¯Ã8ö‹Úàı.
-M
-java:S1444"+Make this "public static count" field final(Ã‘Ñ€ùÿÿÿÿ8ºÁ«àı.
+s
+java:S1104"QMake count a static final constant or non-public and provide accessors if needed.(Ã‘Ñ€ùÿÿÿÿ8ºÁ«àı.
+t	java:S127V"XRefactor the code in order to not assign to this loop counter from within the loop body.(ÂîÎâ8ƒÊìâı.
 W
 java:S1854H":Remove this useless assignment to local variable "option".(Ç¯à˜8ö”æáı.
 o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Àı§„
-t	java:S127V"XRefactor the code in order to not assign to this loop counter from within the loop body.(ÂîÎâ8ƒÊìâı.
+y	java:S127Y"XRefactor the code in order to not assign to this loop counter from within the loop body.(ëİ¯˜ûÿÿÿÿ8áƒÄùı.
+M
+java:S1444"+Make this "public static count" field final(Ã‘Ñ€ùÿÿÿÿ8ºÁ«àı.
