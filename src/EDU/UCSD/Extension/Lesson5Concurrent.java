@@ -197,7 +197,7 @@ class ReentrantThread implements Runnable {
  * is  invoked once  near the end of the  source code file. At the time this was
  * written,  processFiles appeared  on line 339. To change the input files used,
  * move them to the project's root directory and modify the call to processFiles
- * on line 339.
+ * on line 408.
  *
  * The  source code for the five classes comprising this program is contained in
  * this file.
