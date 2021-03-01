@@ -1,6 +1,6 @@
 # Lesson-5-Assignment
 
-The Lesson5Concurrent program accepts a number of commandline options which it uses to determine how it will count the characters in 2 files, simultaneously. The commandline options are "--help", "--num-threads", "--ReentrantLock" and "--AtomicLong".
+The Lesson5Concurrent program accepts a number of commandline options which it uses to determine how it will count the characters in 2 files simultaneously. The commandline options are "--help", "--num-threads", "--ReentrantLock" and "--AtomicLong".
 
 The Lesson5Concurrent program's commandline options may be specified in any order. Of the four options, only the "--num-threads" (i.e., number of threads) option is required. It is used to specify the number of threads that Lesson5Concurrent will use when running each process. Although Lesson5Concurrent imposes no restriction on the magnitude of this parameter, the architecture on which the program runs might impose a practical limit. For this exercise, only the numbers 8 and 16 were tested.
 

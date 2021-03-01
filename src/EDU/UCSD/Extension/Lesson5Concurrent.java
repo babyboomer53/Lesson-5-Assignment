@@ -134,7 +134,7 @@ class ReentrantThread implements Runnable {
 
 /*
  * The  Lesson5Concurrent program  accepts a number of commandline options which
- * it  uses  to  determine  how  it  will  count  the  characters  in  2  files,
+ * it   uses  to  determine  how  it  will  count  the  characters  in  2  files
  * simultaneously.  The  commandline options  are "--help", "--num-threads", "--
  * ReentrantLock" and "--AtomicLong".
  *
