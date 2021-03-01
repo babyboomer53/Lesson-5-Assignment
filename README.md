@@ -29,4 +29,4 @@ When neither of these locking options is specified, no locking mechanism is used
 
 Contrary to the original specification, this test suite uses a different set of input files. The reason for making the change was to ensure that the size of the result set generated could adequately demonstrate the concepts. The files used for testing are named "Data4.txt" and "Data5.txt" and are located in this project's root directory. The Lesson5Concurrent.processFiles() method accepts two String arguments containing the names of the files to process. It is invoked once near the end of the source code file. At the time this was written, processFiles appeared on line 339. To change the input files used, move them to the project's root directory and modify the call to processFiles() on line 339.
 
-The source code for the five classes comprising this program are contained in a single file named Lesson5Concurrent.java.
+The source code for the five classes comprising this program is contained in a single file named Lesson5Concurrent.java.
