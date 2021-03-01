@@ -381,6 +381,7 @@ public class Lesson5Concurrent {
                     } catch (NumberFormatException | ArrayIndexOutOfBoundsException exception) {
                         // I know! Modifying the control variable from within the loop is a no-no!
                         System.err.printf("%nThe \"%s\" option requires a numeric argument.%n", options[--index]);
+                        Lesson5Concurrent.syntaxSummary();
                         System.exit(1);
                     }
                     break;
