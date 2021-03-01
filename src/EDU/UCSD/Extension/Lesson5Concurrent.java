@@ -170,9 +170,10 @@ class ReentrantThread implements Runnable {
  *        Lesson5Concurrent [--ReentrantLock]   # Use locking. By default, locking is not used.
  *        Lesson5Concurrent [--AtomicLong]      # Use locking. By default, locking is not used.
  * </pre>
- * When  the "--help" option appears on the commandline, only the syntax diagram
- * is  displayed. All  other options  are ignored  (i.e., skipped)  and no  file
- * processing occurs.
+ *
+ * The  presence of the "--help" option on the command line supersedes all other
+ * options.  When the  command  line  includes the  "--help"  option, all  other
+ * options  will  be  ignored.  Only  the "--help"  option  will  be  processed.
  *
  * Invoking  the Lesson5Concurrent  program without any options will generate an
  * error and result in the display of the syntax diagram.
@@ -197,7 +198,7 @@ class ReentrantThread implements Runnable {
  * is  invoked once  near the end of the  source code file. At the time this was
  * written,  processFiles appeared  on line 339. To change the input files used,
  * move them to the project's root directory and modify the call to processFiles
- * on line 408.
+ * on line 409.
  *
  * The  source code for the five classes comprising this program is contained in
  * this file.

@@ -17,7 +17,10 @@ Usage: Lesson5Concurrent [--help]            # Displays this command syntax summ
        Lesson5Concurrent [--ReentrantLock]   # Use locking. By default, locking is not used.
        Lesson5Concurrent [--AtomicLong]      # Use locking. By default, locking is not used.
 ```
-When the "--help" option appears on the commandline, only the syntax diagram is displayed. All other options are ignored (i.e., skipped) and no file processing occurs.
+
+The  presence of the "--help" option on the command line supersedes all other
+options.  When the  command  line  includes the  "--help"  option, all  other
+options  will  be  ignored.  Only  the "--help"  option  will  be  processed.
 
 Invoking the Lesson5Concurrent program without any options will generate an error and result in the display of the syntax diagram.
 
@@ -27,6 +30,6 @@ When the "--AtomicLong" option is specified, the Lesson5Concurrent program uses 
 
 When neither of these locking options is specified, no locking mechanism is used.
 
-Contrary to the original specification, this test suite uses a different set of input files. The reason for making the change was to ensure that the size of the result set generated could adequately demonstrate the concepts. The files used for testing are named "Data4.txt" and "Data5.txt" and are located in this project's root directory. The Lesson5Concurrent.processFiles() method accepts two String arguments containing the names of the files to process. It is invoked once near the end of the source code file. At the time this was written, processFiles appeared on line 339. To change the input files used, move them to the project's root directory and modify the call to processFiles() on line 408.
+Contrary to the original specification, this test suite uses a different set of input files. The reason for making the change was to ensure that the size of the result set generated could adequately demonstrate the concepts. The files used for testing are named "Data4.txt" and "Data5.txt" and are located in this project's root directory. The Lesson5Concurrent.processFiles() method accepts two String arguments containing the names of the files to process. It is invoked once near the end of the source code file. At the time this was written, processFiles appeared on line 339. To change the input files used, move them to the project's root directory and modify the call to processFiles() on line 409.
 
 The source code for the five classes comprising this program is contained in a single file named Lesson5Concurrent.java.
