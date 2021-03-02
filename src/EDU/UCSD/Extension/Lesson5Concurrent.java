@@ -196,7 +196,7 @@ class ReentrantThread implements Runnable {
  * in this project's root directory. The Lesson5Concurrent.processFiles() method
  * accepts two String arguments containing the names of the files to process. It
  * is  invoked once  near the end of the  source code file. At the time this was
- * written,  processFiles appeared  on line 339. To change the input files used,
+ * written,  processFiles appeared  on line 409. To change the input files used,
  * move them to the project's root directory and modify the call to processFiles
  * on line 409.
  *
