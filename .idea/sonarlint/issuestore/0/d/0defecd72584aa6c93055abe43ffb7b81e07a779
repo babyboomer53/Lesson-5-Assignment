@@ -1,38 +1,38 @@
 
-^	java:S125Ã"<This block of commented-out lines of code should be removed.(Çö üÿÿÿÿ8•¼£Ñş.
-I
-java:S1481è"+Remove this unused "option" local variable.(›˜¯Ã8•¼£Ñş.
-N
-java:S1444Ò"0Make this "public static atomicLong" field final(ú­³8ó´œßş.
-^	java:S125Ñ"<This block of commented-out lines of code should be removed.(Çö üÿÿÿÿ8×¦Òş.
+n	java:S128ö"LEnd this switch case with an unconditional break, return or throw statement.(ÿ¶‹ûÿÿÿÿ8Ûûş€ÿ.
 …
-java:S1192¶"bDefine a constant instead of duplicating this literal "
-The combined character count is " 3 times.(×Õåùÿÿÿÿ8–‡ªÒş.
-Y	java:S125ø"<This block of commented-out lines of code should be removed.(±¯€¤8èŞÙÔş.
-t
-java:S1104Ò"VMake atomicLong a static final constant or non-public and provide accessors if needed.(ú­³8ó´œßş.
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Àı§„
-^	java:S125µ"<This block of commented-out lines of code should be removed.(Çö üÿÿÿÿ8•¼£Ñş.
-X
-java:S1854ì":Remove this useless assignment to local variable "option".(Ç¯à˜8•¼£Ñş.
-H
-java:S1481="&Remove this unused "l" local variable.(æçîÇşÿÿÿÿ8¨³óÑş.
-K
-java:S1481#".Remove this unused "character" local variable.(û§é¼8Ï—Ìş.
-j
-java:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(øµÏ8Ï—Ìş.
-z	java:S127ÿ"XRefactor the code in order to not assign to this loop counter from within the loop body.(ëİ¯˜ûÿÿÿÿ8•¼£Ñş.
-W
-java:S1854="5Remove this useless assignment to local variable "l".(æçîÇşÿÿÿÿ8¨³óÑş.
+java:S1192·"bDefine a constant instead of duplicating this literal "
+The combined character count is " 3 times.(×Õåùÿÿÿÿ8Ûûş€ÿ.
 Z
 java:S1854#"=Remove this useless assignment to local variable "character".(û§é¼8Ï—Ìş.
-t
-java:S1104Ñ"QMake count a static final constant or non-public and provide accessors if needed.(Ã‘Ñ€ùÿÿÿÿ8ó´œßş.
-h
-java:S2142}"FEither re-interrupt this method or rethrow the "InterruptedException".(º”µ–ıÿÿÿÿ8ÜáÉÌş.
-u	java:S127û"XRefactor the code in order to not assign to this loop counter from within the loop body.(ÂîÎâ8•¼£Ñş.
-n	java:S128õ"LEnd this switch case with an unconditional break, return or throw statement.(ÿ¶‹ûÿÿÿÿ8èŞÙÔş.
-N
-java:S1444Ñ"+Make this "public static count" field final(Ã‘Ñ€ùÿÿÿÿ8ó´œßş.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Àı§„
+K
+java:S1481#".Remove this unused "character" local variable.(û§é¼8Ï—Ìş.
 n
 java:S1192;"QDefine a constant instead of duplicating this literal "%s startingâ€¦%n" 3 times.(÷™à8ÑÒ™Óş.
+u	java:S127ü"XRefactor the code in order to not assign to this loop counter from within the loop body.(ÂîÎâ8Ûûş€ÿ.
+N
+java:S1444Ò"+Make this "public static count" field final(Ã‘Ñ€ùÿÿÿÿ8Ûûş€ÿ.
+I
+java:S1481é"+Remove this unused "option" local variable.(›˜¯Ã8Ûûş€ÿ.
+t
+java:S1104Ó"VMake atomicLong a static final constant or non-public and provide accessors if needed.(ú­³8Ûûş€ÿ.
+z	java:S127€"XRefactor the code in order to not assign to this loop counter from within the loop body.(ëİ¯˜ûÿÿÿÿ8Ûûş€ÿ.
+N
+java:S1444Ó"0Make this "public static atomicLong" field final(ú­³8Ûûş€ÿ.
+X
+java:S1854í":Remove this useless assignment to local variable "option".(Ç¯à˜8Ûûş€ÿ.
+Y	java:S125ù"<This block of commented-out lines of code should be removed.(±¯€¤8Ûûş€ÿ.
+^	java:S125Ä"<This block of commented-out lines of code should be removed.(Çö üÿÿÿÿ8Ûûş€ÿ.
+h
+java:S2142}"FEither re-interrupt this method or rethrow the "InterruptedException".(º”µ–ıÿÿÿÿ8ÜáÉÌş.
+^	java:S125¶"<This block of commented-out lines of code should be removed.(Çö üÿÿÿÿ8Ûûş€ÿ.
+H
+java:S1481="&Remove this unused "l" local variable.(æçîÇşÿÿÿÿ8¨³óÑş.
+W
+java:S1854="5Remove this useless assignment to local variable "l".(æçîÇşÿÿÿÿ8¨³óÑş.
+^	java:S125Ò"<This block of commented-out lines of code should be removed.(Çö üÿÿÿÿ8Ûûş€ÿ.
+t
+java:S1104Ò"QMake count a static final constant or non-public and provide accessors if needed.(Ã‘Ñ€ùÿÿÿÿ8Ûûş€ÿ.
+j
+java:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(øµÏ8Ï—Ìş.
